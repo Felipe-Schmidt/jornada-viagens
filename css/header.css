@@ -35,6 +35,6 @@ nav {
 }
 
 .list-links li a {
-  color: var(--text-secondary-color);
+  color: var(--background-primary-color);
   text-decoration: none;
 }

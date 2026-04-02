@@ -27,11 +27,18 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 nav {
-  display: none ;
+  display: none;
+  position: absolute;
 }
 
-.list-links{
-  list-style:none
+.list-links {
+  list-style: none;
+}
+
+.list-links li{
+  margin: 16px 0;
+
+
 }
 
 .list-links li a {

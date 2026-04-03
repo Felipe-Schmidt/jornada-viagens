@@ -42,19 +42,20 @@ nav {
 .list-links li a {
   color: var(--background-primary-color);
   text-decoration: none;
-  font-size:24px ;
+  font-size: 24px;
+  font-weight: var(--menu-text-weight);
 }
 /* Tablet */
 @media screen and (min-width: 768px) {
   .navigation-menu {
-    margin-top: 0;
     width: 467px;
   }
-  .navigation-menu labeal {
+  .navigation-menu label {
     display: none;
   }
   .navigation-menu nav {
-  display: block;
+    display: block;
+    position: static;
   }
   .navigation-menu ul {
     display: flex;
@@ -62,8 +63,4 @@ nav {
     align-items: center;
     padding: 0;
   }
-  .navigation-menu li{
-    margin: 0;
-  }
 }
-

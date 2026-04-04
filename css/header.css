@@ -13,7 +13,13 @@ header {
   width: 68px;
   height: 64px;
 }
+.logo-mobile {
+  display: block;
+}
 
+.logo-desktop {
+  display: none;
+}
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
@@ -24,7 +30,6 @@ input[type="checkbox"]:checked ~ nav {
   background-color: var(--backgroung-tertiary-color);
   text-align: right;
   padding-right: 48px;
-  
 }
 
 nav {
@@ -62,5 +67,34 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0;
+  }
+  .navigation-menu li {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 120px;
+  }
+
+  .logo {
+    width: 260;
+    height: 64;
+  }
+}
+.img-desktop {
+  display: block;
+}
+.img-mobile {
+  display: none;
+}
+.navigation-menu a:hover {
+  color: var(--primary-color);
+}
+/* Regra de 3 para saber o padding em um monitor de 1920 */
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 36px 160px;
   }
 }

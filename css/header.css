@@ -13,11 +13,12 @@ header {
   width: 68px;
   height: 64px;
 }
-.logo-mobile {
+
+.img-mobile {
   display: block;
 }
 
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 
@@ -77,20 +78,19 @@ nav {
   header {
     padding: 38px 120px;
   }
-
   .logo {
-    width: 260;
-    height: 64;
+    width: 260px;
+    height: 64px;
   }
-}
-.img-desktop {
-  display: block;
-}
-.img-mobile {
-  display: none;
-}
-.navigation-menu a:hover {
-  color: var(--primary-color);
+  .img-desktop {
+    display: block;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .navigation-menu a:hover {
+    color: var(--primary-color);
+  }
 }
 /* Regra de 3 para saber o padding em um monitor de 1920 */
 @media screen and (min-width: 1920px) {

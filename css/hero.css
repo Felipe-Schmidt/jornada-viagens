@@ -14,7 +14,7 @@
   }
 }
 /* PC */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .hero-img {
     height: 621px;
     width: 100%;

@@ -51,6 +51,8 @@ nav {
   font-size: 24px;
   font-weight: var(--menu-text-weight);
 }
+
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .navigation-menu {
@@ -72,8 +74,9 @@ nav {
   .navigation-menu li {
     margin: 0;
   }
+  
 }
-
+/* Computador */
 @media screen and (min-width: 1024px) {
   header {
     padding: 38px 120px;

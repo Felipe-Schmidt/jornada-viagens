@@ -1,6 +1,7 @@
 .card {
   color: var(--text-secondary-color);
   background-color: var(--text-primary-color);
+  /* background-color: aqua; */
   width: 312px;
   height: 288px;
   padding: 24px 16px;

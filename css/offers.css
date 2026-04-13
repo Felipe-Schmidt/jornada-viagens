@@ -1,7 +1,6 @@
 .card {
   color: var(--text-secondary-color);
   background-color: var(--text-primary-color);
-  /* background-color: aqua; */
   width: 312px;
   height: 288px;
   padding: 24px 16px;
@@ -34,6 +33,22 @@
   display: inline-block;
 }
 
+.card.japao{
+  background-image: url(../img/bg-card-japao.jpg);
+  background-size: cover;
+}
+.card.sanandreas{
+  background-image: url(../img/bg-card-sanandreas.jpg);
+  background-size: cover;
+}
+.card.paraiba{
+  background-image: url(../img/bg-card-paraiba.jpg);
+  background-size: cover;
+}
+.card.manaus{
+  background-image: url(../img/bg-card-manaus.jpg);
+  background-size: cover;
+}
 /* PC */
 @media screen and (min-width: 1024px) {
   .card {

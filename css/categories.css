@@ -1,0 +1,21 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card-categories{
+    width: 312px;
+    height: 220px;
+    background-color:var(--background-secundary-color);
+    border-radius: 8px;
+}
+.card-categories header{
+    display: block;
+    position: static;
+    background-color: transparent;
+    padding: 0;
+}
+.img-categories{
+    width: 80px;
+    height: 80px;
+}

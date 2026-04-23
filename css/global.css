@@ -23,8 +23,10 @@
 
 /*Reset CSS*/
 body,
+a,
 img,
 h1,
+h4,
 p,
 fieldset,
 legend,
@@ -52,6 +54,12 @@ body {
   margin: 0;
   text-align: center;
 }
+
+.categories-cards h4 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 0;
+}
 .section-title hr {
   width: 180px;
   height: 4px;
@@ -70,6 +78,9 @@ body {
   text-decoration: none;
   line-height: 64px;
   background-color: var(--primary-color);
+}
+a {
+  text-decoration: none;
 }
 
 /* Tablet */

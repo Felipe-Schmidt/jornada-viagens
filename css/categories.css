@@ -1,17 +1,38 @@
-.categories{
+.categories-cards{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 24px;
+    margin-bottom: 88px;
 }
 .card-categories{
+    display: block;
+    /* align-items: center; */
     width: 312px;
     height: 220px;
     background-color:var(--background-secundary-color);
     border-radius: 8px;
+    
 }
 .card-categories header{
     display: block;
     position: static;
     background-color: transparent;
     padding: 0;
+    text-align: center;
+    align-items: center;
 }
+
+.card-categories h4{
+    display: block;
+    color: var(--backgroung-tertiary-color);
+    justify-content: center;
+}
+
+@media screen and (min-widt: 1024px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+

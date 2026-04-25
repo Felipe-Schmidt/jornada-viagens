@@ -79,11 +79,13 @@
     justify-content: center;
   }
 }
+/* pc */
 @media screen and (min-width: 1440px) {
   .card{
     width: 588px;
   }
 }
+/* pc maior */
 @media screen and (min-width: 1920px) {
   .offers-cards{
     width: 1250px;

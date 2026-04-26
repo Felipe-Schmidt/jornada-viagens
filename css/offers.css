@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 
 .card {
@@ -78,15 +79,17 @@
     justify-content: center;
   }
 }
+/* pc */
 @media screen and (min-width: 1440px) {
   .card{
     width: 588px;
   }
 }
+/* pc maior */
 @media screen and (min-width: 1920px) {
   .offers-cards{
     width: 1250px;
-    margin: 0 auto;
+    margin: 0 auto 104px;
   }
   
 }

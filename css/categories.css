@@ -1,0 +1,76 @@
+.categories section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 88px;
+}
+.card-categories {
+  display: block;
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secundary-color);
+  border-radius: 8px;
+  padding: 41px 16px;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--text-primary-color);
+}
+.card-categories header {
+  display: block;
+  position: static;
+  background-color: transparent;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.card-categories h4 {
+  display: block;
+  justify-content: center;
+  /* font-size: 28px; */
+}
+
+.transfer h4 {
+  padding-top: 30px;
+}
+.transfer img {
+  padding-top: 15px;
+}
+.seguro-viagem h4 {
+  padding-top: 18px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .categories section-title {
+    width: 100%;
+  }
+  .categories-cards {
+    width: 648px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto 68px;
+  }
+}
+/* pc */
+@media screen and (min-width: 1440px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto 104px;
+  }
+  .card-categories {
+    flex: 0 0 280px;
+    /* width: 280px; */
+  }
+}

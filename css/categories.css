@@ -14,6 +14,7 @@
   padding: 41px 16px;
   box-sizing: border-box;
   text-align: center;
+  color: var(--text-primary-color);
 }
 .card-categories header {
   display: block;
@@ -26,8 +27,19 @@
 
 .card-categories h4 {
   display: block;
-  color: var(--backgroung-tertiary-color);
   justify-content: center;
+  /* font-size: 28px; */
+}
+
+.transfer h4{
+  padding-top: 30px;
+}
+.transfer img{
+  padding-top: 15px;
+}
+.seguro-viagem h4{
+  padding-top: 18px;
+  
 }
 
 /* tablet */

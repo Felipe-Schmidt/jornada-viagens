@@ -1,3 +1,8 @@
+.categories section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
 .categories-cards {
   display: flex;
   flex-direction: column;
@@ -31,19 +36,21 @@
   /* font-size: 28px; */
 }
 
-.transfer h4{
+.transfer h4 {
   padding-top: 30px;
 }
-.transfer img{
+.transfer img {
   padding-top: 15px;
 }
-.seguro-viagem h4{
+.seguro-viagem h4 {
   padding-top: 18px;
-  
 }
 
 /* tablet */
 @media screen and (min-width: 768px) {
+  .categories section-title {
+    width: 100%;
+  }
   .categories-cards {
     width: 648px;
     flex-direction: row;

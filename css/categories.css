@@ -11,7 +11,7 @@
   height: 220px;
   background-color: var(--background-secundary-color);
   border-radius: 8px;
-  padding: 41px 16px ;
+  padding: 41px 16px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -30,32 +30,28 @@
   justify-content: center;
 }
 
-
-
-
 /* tablet */
 @media screen and (min-width: 768px) {
-  .categories-cards{
+  .categories-cards {
     width: 648px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0px 68px 88px 68px;
+    margin: 0px auto 68px;
   }
 }
 /* pc */
-@media screen and (min-width: 1024px) {
-  .categories-cards{
+@media screen and (min-width: 1440px) {
+  .categories-cards {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     gap: 24px;
     max-width: 1200px;
-    margin: 0 auto 80px;
+    margin: 0 auto 104px;
   }
-  .card-categories{
+  .card-categories {
     flex: 0 0 280px;
-    width: 280px;
+    /* width: 280px; */
   }
-  
 }

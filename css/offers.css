@@ -23,11 +23,14 @@
   position: static;
   padding: 0;
   margin-bottom: 24px;
+  justify-content: center;
 }
 
 .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
+  text-align: center;
+
 }
 
 .card header h3 {

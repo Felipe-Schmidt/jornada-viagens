@@ -83,6 +83,11 @@ body {
 a {
   text-decoration: none;
 }
+p{
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  text-align: left;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {

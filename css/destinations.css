@@ -30,7 +30,7 @@
   font-size: 28px;
   font-weight: var(--titles-weight);
   color: var(--text-primary-color);
-  margin: 224px 24px 0 24px;
+  margin: 24px 24px 0 24px;
 }
 
 .destination-items p {
@@ -68,7 +68,8 @@
     margin: 0;
   } */
   .destination-items {
+    width: 1440px;
     flex-direction: row;
-    gap: 5px;
+    justify-content: center;
   }
 }

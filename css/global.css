@@ -28,6 +28,7 @@ img,
 h1,
 h4,
 h2,
+h3,
 p,
 fieldset,
 legend,
@@ -82,6 +83,11 @@ body {
 }
 a {
   text-decoration: none;
+}
+p{
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  text-align: left;
 }
 
 /* Tablet */

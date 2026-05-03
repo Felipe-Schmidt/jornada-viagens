@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   gap: 56px;
-  margin-bottom: 88px;
+  margin:0 auto 88px auto;
 }
 .item {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  margin: 0 24px;
+  margin: 0 auto;
 }
 
 .img-item {
@@ -16,7 +16,7 @@
   height: 360px;
   margin: 0 auto;
 }
-.item a {
+.item .button {
   text-align: center;
   width: 100%;
 }
@@ -34,10 +34,6 @@
   color: var(--text-primary-color);
 }
 
-.destination-items footer {
-  display: flex;
-  text-align: center;
-}
 /* tablet */
 @media screen and (min-width: 768px) {
   .img-item {
@@ -45,11 +41,11 @@
     height: 452px;
   }
   .destination-items {
-    margin: 0 auto;
+    margin: 0 auto 88px auto;
     gap: 40px;
     width: 648px;
   }
-  .item a {
+  .destinations .button {
     width: 280px;
   }
 

@@ -65,13 +65,13 @@ body {
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
 }
 
-.categories-cards h4 {
+h4 {
   font-size: 28px;
   font-weight: var(--titles-weight);
   margin: 0;
@@ -81,7 +81,7 @@ body {
   height: 4px;
   background-color: var(--primary-color);
   border: none;
-  margin: 16px auto 32px;
+  margin: 16px auto 0;
 }
 .button {
   min-width: 280px;

@@ -25,11 +25,6 @@
   align-items: center;
 }
 
-.card-categories h4 {
-  display: block;
-  justify-content: center;
-}
-
 .transfer h4 {
   padding-top: 30px;
 }
@@ -47,7 +42,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0px auto 68px;
+    margin: 0 auto 68px;
   }
 }
 /* pc */

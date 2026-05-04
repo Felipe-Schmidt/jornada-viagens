@@ -27,11 +27,7 @@
   background: url(../img/osaka-mobile.jpg) no-repeat;
   background-size: cover;
 }
-.destination-items h4 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
-  color: var(--text-primary-color);
-}
+
 
 /* tablet */
 @media screen and (min-width: 768px) {

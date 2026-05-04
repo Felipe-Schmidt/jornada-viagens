@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--backgroung-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -78,7 +78,7 @@ nav {
 }
 /* Computador */
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
   .logo {
@@ -97,7 +97,7 @@ nav {
 }
 /* Regra de 3 para saber o padding em um monitor de 1920 */
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 36px 160px;
   }
 }

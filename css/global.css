@@ -60,7 +60,7 @@ body {
 }
 
 .section-title {
-  width: 270px;
+  width: 280px;
   margin: 0 auto 32px;
 }
 
@@ -84,7 +84,7 @@ body {
   margin: 16px auto 32px;
 }
 .button {
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
   font-weight: var(--text-weight);
@@ -128,7 +128,7 @@ p {
     background-color: var(--secondary-color);
   }
 }
-@media screen and(min-width:1440px) {
+@media screen and (min-width:1440px) {
   .section {
     width: 1200px;
   }

@@ -43,6 +43,8 @@
 
   .hero h2{
     padding: 88px 160px;
+    width: 1500px;
+    margin: 0 auto;
   }
 
 }

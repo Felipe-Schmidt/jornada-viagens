@@ -64,12 +64,12 @@ body {
   margin: 0 auto 32px;
 }
 
-.section-title h2 {
+/* .section-title h2 {
   font-size: 32px;
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
-}
+} */
 /* h4 */
 .content-title {
   font-size: 28px;

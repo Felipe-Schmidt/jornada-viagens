@@ -1,0 +1,12 @@
+.grid-image-content {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 144px 144px;
+  grid-template-rows: 254px 312px;
+}
+.people {
+  background-image: url(../img/payment_people_mobile.png); 
+  background-size: cover;
+  grid-column: span 2; /* Faz este item ocupar 2 colunas*/
+  background-size: cover;
+}

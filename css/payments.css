@@ -1,12 +1,50 @@
+.text-content{
+  margin: 0 auto 24px;
+}
+
 .grid-image-content {
+  margin: 0 auto;
+  width:312px ;
   display: grid;
   gap: 24px;
-  grid-template-columns: 144px 144px;
-  grid-template-rows: 254px 312px;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 254px 312px; */
+}
+.image{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.bag, .passport{
+  height: 254px;
+}
+.bag{
+  background-image: url(../img/payment_bag1_mobile.png);
+}
+.passport{
+  background-image: url(../img/payment_ppt_mobile.png);
 }
 .people {
   background-image: url(../img/payment_people_mobile.png); 
-  background-size: cover;
   grid-column: span 2; /* Faz este item ocupar 2 colunas*/
-  background-size: cover;
+  height: 182px;
+}
+
+/* Tablet */
+@media screen and (min-width:768px){
+  .grid-image-content{
+    width: 648px;
+    margin: 0 auto;
+  }
+  .people{
+    height: 182px;
+      background-position: center 44% ;
+    background-repeat: no-repeat;
+
+  }
+
+
+  
 }

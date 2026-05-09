@@ -1,0 +1,70 @@
+.text-content {
+  margin: 0 auto 24px;
+}
+.content-title{
+  margin-bottom: 24px;
+}
+
+.grid-image-content {
+  display: grid;
+  margin: 0 auto;
+  width: 312px;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 254px 312px; */
+}
+.image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bag,
+.passport {
+  height: 254px;
+}
+.bag {
+  background-image: url(../img/payment_bag1_mobile.png);
+}
+.passport {
+  background-image: url(../img/payment_ppt_mobile.png);
+}
+.people {
+  background-image: url(../img/payment_people_mobile.png);
+  grid-column: span 2; /* Faz este item ocupar 2 colunas*/
+  height: 182px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .grid-image-content {
+    width: 648px;
+    margin: 0 auto;
+  }
+  .people {
+    background-image: url(../img/payments_people_2x.png);
+    height: 182px;
+    /* background-position: center 80% ; */
+    background-repeat: no-repeat;
+  }
+}
+/* pc */
+
+@media screen and (min-width: 1440px) {
+  .payment_row_pc {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 2fr;
+    gap: 23px;
+  }
+  .grid-image-content {
+    width: 790px;
+  }
+  .passport{
+    background-image: url(../img/payment_passport_pc.jpg);
+  }
+  .bag{
+    background-image: url(../img/payment_bag_pc.png);
+  }
+}

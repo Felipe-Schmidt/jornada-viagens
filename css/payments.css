@@ -1,17 +1,14 @@
-.text-content {
-  margin: 0 auto 24px;
-}
-.content-title{
+.content-title {
   margin-bottom: 24px;
 }
 
+
 .grid-image-content {
   display: grid;
-  margin: 0 auto;
-  width: 312px;
-  gap: 24px;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 254px 312px; */
+  gap: 24px;
+  margin: 24px auto 0;
+  width: 100%;
 }
 .image {
   background-size: cover;
@@ -25,46 +22,76 @@
 }
 .bag {
   background-image: url(../img/payment_bag1_mobile.png);
+  background-size: cover;
 }
 .passport {
   background-image: url(../img/payment_ppt_mobile.png);
+  background-size: cover;
 }
 .people {
   background-image: url(../img/payment_people_mobile.png);
+  background-size: cover;
   grid-column: span 2; /* Faz este item ocupar 2 colunas*/
   height: 182px;
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .text-content {
+    width: 648px;
+    margin-inline: auto;
+  }
   .grid-image-content {
     width: 648px;
-    margin: 0 auto;
+    margin: 24px auto;
   }
   .people {
     background-image: url(../img/payments_people_2x.png);
-    height: 182px;
     /* background-position: center 80% ; */
-    background-repeat: no-repeat;
   }
 }
-/* pc */
 
+/* pc */
 @media screen and (min-width: 1440px) {
-  .payment_row_pc {
-    display: grid;
-    width: 1200px;
-    margin: 0 auto;
-    grid-template-columns: 1fr 2fr;
-    gap: 23px;
-  }
-  .grid-image-content {
+  .payments .content-container {
+  display: flex;
+  justify-content: space-between;
+}
+  .payments .grid-image-content {
     width: 790px;
+    margin: 0;
   }
-  .passport{
+  .payments .text-content {
+    width: 360px;
+    margin: 0;
+  }
+  .payments .content-title {
+    width: 270px;
+  }
+
+  .passport {
     background-image: url(../img/payment_passport_pc.jpg);
   }
-  .bag{
+  .bag {
     background-image: url(../img/payment_bag_pc.png);
   }
 }
+
+/* .payment_row_pc {
+  display: grid;
+  grid-template-columns: 384px 790px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 23px;
+}
+
+.grid-image-content {
+  width: 790px;
+  margin: 0;
+}
+.content-title {
+  width: 300px;
+}
+.text-content {
+  max-width: 384px;
+} */

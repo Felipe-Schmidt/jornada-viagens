@@ -64,6 +64,7 @@ body {
   margin: 0 auto 32px;
 }
 
+/* h2 */
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
@@ -83,6 +84,13 @@ body {
   font-weight: var(--titles-weight);
   margin: 0;
 }
+/* <p> */
+.content-text {
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  text-align: left;
+  font-size: 20px;
+}
 .button {
   min-width: 280px;
   height: 64px;
@@ -99,13 +107,6 @@ body {
 a {
   text-decoration: none;
 }
-/* <p> */
-.content-text {
-  font-weight: var(--text-weight);
-  line-height: 32px;
-  text-align: left;
-  font-size: 20px;
-}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -120,8 +121,7 @@ a {
     font-size: 32px;
   }
 }
-
-/* PC */
+/*PC menor e Tablet deitado (1024px) */
 @media screen and (min-width: 1024px) {
   .section {
     width: 900px;
@@ -130,6 +130,8 @@ a {
     background-color: var(--secondary-color);
   }
 }
+
+/* PC */
 @media screen and (min-width: 1440px) {
   .section {
     width: 1200px;

@@ -27,6 +27,13 @@
     font-size: 32px;
   }
 }
+/* Tablet deitado */
+@media screen and (min-width:1024px) {
+  .hero-img{
+    background-position: center;
+  }
+  
+}
 /* PC */
 @media screen and (min-width: 1440px) {
   .hero-img {

@@ -1,0 +1,45 @@
+.article-testimonials {
+  margin-bottom: 32px;
+}
+.testimonial-container .testimonials-text {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+.testimonial-container footer {
+  display: flex;
+  gap: 24px;
+}
+
+.testimonial-pic {
+  width: 86px;
+  height: 86px;
+}
+.testimonial-container .profile-content {
+  font-size: 20px;
+  font-weight: var(--titles-weight);
+}
+.rating {
+  display: flex;
+  gap: 8px;
+  color: var(--primary-color);
+  font-size: 35px;
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) {
+  .testimonials {
+    width: 648px;
+  }
+}
+/* PC */
+@media screen and (min-width:1440px) {
+    .testimonials{
+        width: 1200px ;
+
+    }
+    .testimonial-container{
+        display: flex;
+    }
+    
+}

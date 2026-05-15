@@ -1,4 +1,32 @@
-.img_bottom_hero{
-    background: url(../img/footer_img_mobile.png);
-    height:400px ;
+.img_bottom_hero {
+  background: url(../img/footer_img_mobile.png) no-repeat;
+  height: 400px;
+  background-size: cover;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .img_bottom_hero {
+    background: url(../img/footer_img_tablet.png) no-repeat;
+    height: 400px;
+    background-size: cover;
+  }
+}
+
+/* PC menor e tablet deitado */
+@media screen and (min-width:1024px) {
+    .img_bottom_hero{
+        background-position:center 90%;
+    }
+    
+}
+
+/* PC */
+@media screen and (min-width:1440px) {
+    .img_bottom_hero{
+        background: url(../img/footer_img_pc.png) no-repeat;
+        height: 600px;
+        background-size: cover;
+    }
+    
 }

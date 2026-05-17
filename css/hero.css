@@ -53,7 +53,7 @@
 /* PC */
 @media screen and (min-width: 1440px) {
   .hero .hero-img {
-    height: 621px;
+    height: 620px;
     background: url(../img/hero_maldivas_pc.png) no-repeat;
     background-size: cover;
   }
@@ -65,4 +65,11 @@
   .hero h2 {
     max-width: 1200px;
   }
+}
+@media screen and (min-width: 1920px) {
+  .hero h2{
+    padding: 88px 160px;
+    line-height: 60px;
+  }
+  
 }

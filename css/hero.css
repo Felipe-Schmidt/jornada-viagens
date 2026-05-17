@@ -1,9 +1,16 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
+  width: 100%;
+}
+.hero .hero-img {
   background: url(../img/hero_mobile.jpg) no-repeat;
   background-size: cover;
 }
-
+.bottom-hero .hero-img {
+  background: url(../img/footer_img_mobile.png) no-repeat;
+  background-size: cover;
+}
 .hero h2 {
   max-width: 312px;
   font-size: 20px;
@@ -14,10 +21,16 @@
 }
 /* Tablet */
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     width: 100%;
     background: url(../img/hero.tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/footer_img_tablet.png) no-repeat;
     background-size: cover;
   }
 
@@ -28,23 +41,28 @@
   }
 }
 /* Tablet deitado */
-@media screen and (min-width:1024px) {
-  .hero-img{
+@media screen and (min-width: 1024px) {
+  .hero .hero-img {
     background-position: center;
   }
-  
+  .bottom-hero .hero-img {
+    background-position: center 70%;
+  }
 }
+
 /* PC */
 @media screen and (min-width: 1440px) {
-  .hero-img {
+  .hero .hero-img {
     height: 621px;
-    width: 100%;
     background: url(../img/hero_maldivas_pc.png) no-repeat;
     background-size: cover;
   }
-
-  .hero h2{
+  .bottom-hero .hero-img {
+    background: url(../img/footer_img_pc.png) no-repeat;
+    height: 600px;
+    background-size: cover;
+  }
+  .hero h2 {
     max-width: 1200px;
   }
 }
-
